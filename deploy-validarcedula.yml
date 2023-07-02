@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: validarcedula-pod
+spec:
+   containers:
+   - name: validarcedula-container
+     image: lfreyesbaez/reactapp:v1.0
+     ports:
+     - containerPort: 6379

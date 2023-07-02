@@ -2,9 +2,9 @@ version:  "3.8"
 
 services:
   app:
-    container_name: miapp
-    image:  miapp
+    container_name: validarcedula
+    image:  validarcedula
     build:
       context: .
     ports:
-      - 8080:80
+      - 90:80
