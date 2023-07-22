@@ -32,7 +32,7 @@ Response:
 }
 
 ````
-# Desplegar proyecto
+# Desplegar proyecto 🐳
 
 Para desplegar el proyecto corre el siguiente comando: 
 
@@ -44,6 +44,10 @@ docker build -t validarcedula .
 Iniciar contenedor: 
 
 docker run -dp <<PUERTO>>:80 --name validarcedula validarcedula
+
+Iniciar proyecto utilizando Docker Compose 🎼
+
+docker compose up
 
 ````
 
