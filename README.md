@@ -1,9 +1,4 @@
 
-# Validar Cedula
-
-La intención de este proyecto es probar el uso del endpoint **/v3/cedulas/{id}/validate** provisto por el portal público de API's del gobierno Dominicano 🇩🇴
-
-
 ## Cedula Validation API RESTful
 
 
@@ -37,3 +32,18 @@ Response:
 }
 
 ````
+# Desplegar proyecto
+
+Para desplegar el proyecto corre el siguiente comando: 
+
+````
+Crear imagen: 
+
+docker build -t validarcedula .
+
+Iniciar contenedor: 
+
+docker run -dp <<PUERTO>>:80 --name validarcedula validarcedula
+
+````
+
